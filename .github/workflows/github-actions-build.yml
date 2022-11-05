@@ -22,5 +22,5 @@ jobs:
       with:
        username: ${{ secrets.DOCKER_HUB_USERNAME }}
        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
-       repository: config-server
+       repository: yyayaCalero/config-server
        tags: ${{github.run_number}}
